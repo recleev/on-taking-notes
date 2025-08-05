@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+
+#quarto-header>nav>div>div.navbar-brand-container.mx-auto>a>span,
+#listing-listing>div.list.quarto-listing-default>div>div.body>h3>a,
+#title-block-header>div.quarto-title-banner.page-columns.page-full>div>h1,
+#title-block-header>.quarto-title>.title,
+.quarto-listing-category-title {
+  font-family: Newsreader, serif;
+}
+
+.note-with-text {
+  p {
+    font-size: 20px
+  }
+}

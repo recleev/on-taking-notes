@@ -1,0 +1,60 @@
+meta:
+  name: Monochrome Theme
+
+color:
+  palette:
+    grey: "#777777"
+    dark-charcoal: "#333333"
+    charcoal: "#555555"
+    medium-dark: "#666666"
+    medium-gray: "#888888"
+    light-gray: "#AAAAAA"
+    very-light-gray: "#CCCCCC"
+    pale-gray: "#DDDDDD"
+
+  foreground: black
+  background: white
+  primary: charcoal
+  secondary: medium-gray
+  success: medium-dark
+  info: grey
+  warning: charcoal
+  danger: dark-charcoal
+  light: pale-gray
+  dark: black
+
+typography:
+  fonts:
+    - family: Atkinson Hyperlegible Next
+      source: google
+      weight: [500, 700]
+      style: [normal, italic]
+    - family: Atkinson Hyperlegible Mono
+      source: google
+      weight: [500, 700]
+      style: [normal, italic]
+    - family: Newsreader
+      source: google
+      weight: [500, 700]
+      style: [normal, italic]
+
+  base:
+    family: Atkinson Hyperlegible Next
+    weight: 500
+    size: 16px
+    line-height: 1.4285
+
+  headings:
+    family: Newsreader
+    weight: 700
+    line-height: 1.28571429
+    color: black
+
+  monospace:
+    family: Atkinson Hyperlegible Mono
+    weight: 500
+    size: 1rem
+
+  link:
+    color: charcoal
+    decoration: none
