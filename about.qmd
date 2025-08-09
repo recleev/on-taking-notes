@@ -1,0 +1,36 @@
+---
+title: "About"
+about:
+  template: marquee
+  links:
+    - icon: linkedin
+      text: ""
+      href: https://www.linkedin.com/in/recleev/
+    - icon: github
+      text: ""
+      href: https://github.com/recleev
+
+---
+
+![](about/about.png){fig-alt="About in my handwriting, also comes with a writing emoticon."}
+
+This blog is dedicated to
+taking handwritten notes,
+or any element and aspect
+related to it.
+
+It is a love letter, maybe even
+a memoir, about the art, science,
+practice, and joy of taking notes.
+
+The blog's title is inspired
+by Stephen King's on Writing
+and Willian Zinsser's On
+Writing Well.
+
+Written and rendered with
+[Supernote](https://supernote.com/)
+Built and published with
+[Quarto](https://quarto.org/)
+Writing emoticon copied from
+[looks.wtf](https://looks.wtf/).
