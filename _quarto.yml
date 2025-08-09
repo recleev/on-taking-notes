@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "On Taking Notes"
@@ -7,6 +8,7 @@ website:
     type: textbox
   navbar:
     right:
+      - about.qmd
       - icon: github
         href: https://github.com/recleev
       - icon: linkedin
@@ -16,5 +18,5 @@ format:
     theme:
       - sketchy
       - styles.scss
-brand: monochrome.yml
+brand: on-taking-notes.yml
 page-layout: full
