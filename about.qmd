@@ -12,8 +12,11 @@ about:
 
 ---
 
+:::: {.columns .note-with-text}
+::: column
 ![](about/about.png){fig-alt="About in my handwriting, also comes with a writing emoticon."}
-
+:::
+::: column
 This blog is dedicated to
 taking handwritten notes,
 or any element and aspect
@@ -34,3 +37,5 @@ Built and published with
 [Quarto](https://quarto.org/)
 Writing emoticon copied from
 [looks.wtf](https://looks.wtf/).
+:::
+::::
