@@ -9,7 +9,18 @@
 }
 
 .note-with-text {
-  p {
+  display: grid;
+  gap: 20px;
+
+  // Mobile first - single column
+  grid-template-columns: 1fr;
+
+  // Desktop - two columns
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text {
     font-size: 20px;
     padding-left: 1.5rem;
   }
