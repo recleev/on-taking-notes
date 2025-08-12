@@ -9,14 +9,18 @@ about:
     - icon: github
       text: ""
       href: https://github.com/recleev
+    - icon: cup-hot-fill
+      text: ""
+      href: https://buymeacoffee.com/recleev
 
 ---
 
-:::: {.columns .note-with-text}
-::: column
+:::: {.note-with-text}
+::: note
 ![](about/about.png){fig-alt="About in my handwriting, also comes with a writing emoticon."}
 :::
-::: column
+
+::: text
 This blog is dedicated to
 taking handwritten notes,
 or any element and aspect
