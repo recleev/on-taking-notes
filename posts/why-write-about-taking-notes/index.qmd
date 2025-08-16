@@ -1,0 +1,13 @@
+---
+title: "Why Write About Taking Notes"
+author: "Recle E. Vibal"
+date: "2025-08-17"
+categories: [posts, notes, writing, personal]
+format:
+  html:
+    page-layout: full
+    grid:
+      body-width: 1200px
+      margin-width: 0px
+      sidebar-width: 0px
+---
