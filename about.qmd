@@ -10,7 +10,7 @@ about:
       text: ""
       href: https://github.com/recleev
     - icon: cup-hot-fill
-      text: ""
+      text: "BuyMeCoffee"
       href: https://buymeacoffee.com/recleev
 
 ---
