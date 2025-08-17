@@ -129,7 +129,7 @@ window.Quarto = {
 };
 </script>
 
-</head>
+<link rel="alternate" type="application/rss+xml" title="On Taking Notes" href="index.xml" data-external="1"></head>
 
 <body class="nav-fixed quarto-light">
 
@@ -151,6 +151,11 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/recleev"> <i class="bi bi-github" role="img">
@@ -209,7 +214,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cG9zdHMlMkNub3RlcyUyQ3dyaXRpbmclMkNwZXJzb25hbA==" data-listing-date-sort="1755360000000" data-listing-file-modified-sort="1755413722067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
+<div class="quarto-post image-right" data-index="0" data-categories="cG9zdHMlMkNub3RlcyUyQ3dyaXRpbmclMkNwZXJzb25hbA==" data-listing-date-sort="1755360000000" data-listing-file-modified-sort="1755415291618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
 <div class="thumbnail"><a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
 
 <p class="card-img-top"><img src="posts/why-write-about-taking-notes/why-write-about-taking-notes_Page_1.png" alt="Why write about taking notes, handwritten page 1."  class="thumbnail-image card-img"/></p>
@@ -320,7 +325,7 @@ Recle E. Vibal
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/recleev\.github\.io\/on-taking-notes\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
