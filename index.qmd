@@ -1,5 +1,5 @@
 ---
-title: "On Taking Notes"
+title: "Penned and Keyed"
 listing:
   contents: posts
   sort: "date desc"

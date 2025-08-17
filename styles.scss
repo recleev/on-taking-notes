@@ -9,8 +9,21 @@
 }
 
 .note-with-text {
-  p {
-    font-size: 20px;
+  display: grid;
+  gap: 20px;
+
+  // Mobile first - single column
+  grid-template-columns: 1fr;
+
+  // Desktop - two columns
+  @media (min-width: 768px) {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .text {
+    font-size: 1.5rem;
     padding-left: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }

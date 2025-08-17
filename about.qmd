@@ -9,14 +9,18 @@ about:
     - icon: github
       text: ""
       href: https://github.com/recleev
+    - icon: cup-hot-fill
+      text: "BuyMeCoffee"
+      href: https://buymeacoffee.com/recleev
 
 ---
 
-:::: {.columns .note-with-text}
-::: column
+:::: {.note-with-text}
+::: note
 ![](about/about.png){fig-alt="About in my handwriting, also comes with a writing emoticon."}
 :::
-::: column
+
+::: text
 This blog is dedicated to
 taking handwritten notes,
 or any element and aspect
@@ -27,7 +31,7 @@ a memoir, about the art, science,
 practice, and joy of taking notes.
 
 The blog's title is inspired
-by Stephen King's on Writing
+by Stephen King's On Writing
 and Willian Zinsser's On
 Writing Well.
 

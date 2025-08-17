@@ -4,6 +4,7 @@ project:
 
 website:
   title: "On Taking Notes"
+  favicon: logo/on-taking-notes.png
   search:
     type: textbox
   navbar:
@@ -13,6 +14,8 @@ website:
         href: https://github.com/recleev
       - icon: linkedin
         href: https://www.linkedin.com/in/recleev/
+      - icon: cup-hot-fill
+        href: https://buymeacoffee.com/recleev
 format:
   html:
     metadata:

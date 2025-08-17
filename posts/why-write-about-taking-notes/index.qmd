@@ -1,0 +1,123 @@
+---
+title: "Why Write About Taking Notes"
+author: "Recle E. Vibal"
+date: "2025-08-17"
+categories: [posts, notes, writing, personal]
+format:
+  html:
+    page-layout: full
+    grid:
+      body-width: 1200px
+      margin-width: 0px
+      sidebar-width: 0px
+---
+
+:::: {.note-with-text}
+::: note
+![](why-write-about-taking-notes_Page_1.png){fig-alt="Why write about taking notes, handwritten page 1."}
+:::
+
+::: text
+I have been taking notes ever
+since I learned to write. Most
+of my teachers in elementary and
+high school required and checked
+notes. I initially thought it was
+weird to force note taking on
+children, but it became a habit
+and a skill I carried through
+high education and in my
+professional life.
+
+I take notes mostly during lectures
+and sometimes when journaling.
+I, and some of my classmates ^-^,
+use my notes to study for exams.
+I think I did pretty well in school.
+Taking note of things that I find
+interesting, paraphrasing the lesson
+as I see or hear it, and having the
+opportunity to review it anytime
+might have helped my studies.
+
+When I started working, I had
+:::
+::::
+
+:::: {.note-with-text}
+::: note
+![](why-write-about-taking-notes_Page_2.png){fig-alt="Why write about taking notes, handwritten page 2."}
+:::
+
+::: text
+to commute a lot, and I had little
+opportunity to take notes. Well,
+at least the handwritten ones.
+With the rise of smartphones and
+my work that involved a screen and
+keyboard, my few opportunities
+of taking notes were relegated to
+typewritten documents. It is still
+note taking, but I missed my pen
+and paper.
+
+A little later, I discovered the
+[bullet journal](bulletjournal.com).
+It fit my lifestyle then; I still do
+it. I was writing daily again.
+When I changed career, I was
+involved in more meetings and
+more learning opportunities, the
+bullet journal turned into a
+companion in life and learning.
+
+What's my point?
+
+After all these years taking notes,
+:::
+::::
+
+:::: {.note-with-text}
+::: note
+![](why-write-about-taking-notes_Page_3.png){fig-alt="Why write about taking notes, handwritten page 3."}
+:::
+
+::: text
+I thought it is a skill that everyone
+knows how to use. But that does not
+seem to be the case. I had friends
+that photocopied my notes. I judged
+them to be lazy note takers, but
+maybe they really don't know how
+to take notes. I know someone who
+admitted they did not know how to
+take notes. At first, I found that
+odd. Then I thought how amazing it
+would be for these people to learn
+the power and joy of taking notes.
+
+I believe taking notes is an art
+and a science. It requires skill.
+It is also fun. And in case it is
+not obvious, I prefer taking hand
+written notes. A pen gliding on a
+surface captures my thoughts and
+my emotions better than fingertips
+slamming a key cap.
+I am genera­lizing here because I also write
+:::
+::::
+
+:::: {.note-with-text}
+::: note
+![](why-write-about-taking-notes_Page_4.png){fig-alt="Why write about taking notes, handwritten page 4."}
+:::
+
+::: text
+using e- ink on my [Supernote](supernote.com)
+
+In short, I write about taking handwritten notes because I love
+writing. Through this writing, I hope my passion on taking handwri­tten notes
+would infect and convince more people that everyone should take notes.
+:::
+::::
