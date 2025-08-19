@@ -37,8 +37,10 @@ Writing Well.
 
 Written and rendered with
 [Supernote](https://supernote.com/)
+
 Built and published with
 [Quarto](https://quarto.org/)
+
 Writing emoticon copied from
 [looks.wtf](https://looks.wtf/).
 :::
