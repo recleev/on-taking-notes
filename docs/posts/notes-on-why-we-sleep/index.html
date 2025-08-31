@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Recle E. Vibal">
+<meta name="dcterms.date" content="2025-08-31">
 
-<title>Penned and Keyed – On Taking Notes</title>
+<title>Notes on Why We Sleep – On Taking Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo/on-taking-notes.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d8dbfa68d2569c1623b9cb71fb1f508e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-70af6a6443f3693f9c733c09e904fc3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo/on-taking-notes.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d8dbfa68d2569c1623b9cb71fb1f508e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-478be2bcc89c5777f96e5df90464d7ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,76 +69,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="On Taking Notes" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">On Taking Notes</span>
     </a>
   </div>
@@ -149,11 +91,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -180,115 +122,355 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Notes on Why We Sleep</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">posts</div>
+                <div class="quarto-category">notes</div>
+                <div class="quarto-category">reading</div>
+                <div class="quarto-category">books</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Recle E. Vibal </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 31, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ym9va3M=">books <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm90ZXM=">notes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cGVyc29uYWw=">personal <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9zdHM=">posts <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVhZGluZw==">reading <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d3JpdGluZw==">writing <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Penned and Keyed</h1>
+
+
+
+
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_1.png" class="img-fluid" alt="Title of the book, title page of my notes."></p>
+</div>
+<div class="text">
+<p>My notes on <a href="https://www.penguin.com.au/books/why-we-sleep-9780141983769">Matthew Walker’s Why We Sleep</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_2.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 1."></p>
+</div>
+<section id="this-thing-called-sleep" class="level1 text">
+<h1>This Thing Called Sleep</h1>
+<section id="to-sleep" class="level2">
+<h2 class="anchored" data-anchor-id="to-sleep">To sleep…</h2>
+<ul>
+<li>so far, there is no biological function that does not benefit from a good night’s sleep</li>
+</ul>
+</section>
+<section id="caffeine-jet-lag-and-melatonin" class="level2">
+<h2 class="anchored" data-anchor-id="caffeine-jet-lag-and-melatonin">Caffeine, Jet Lag, and Melatonin</h2>
+<p>Losing and Gaining control of Your Sleep Rhythm</p>
+<dl>
+<dt>circadian rhythm</dt>
+<dd>
+Internal 24-hr rhythm
+</dd>
+<dt>heliotropism</dt>
+<dd>
+plant’s leaves or flowers track the trajectory of the sun as it moves across the sky
+</dd>
+</dl>
+<ul>
+<li>circadian clock is about 24: 15</li>
+<li>sunlight resets internal clock to precisely 24 hrs</li>
+</ul>
+<dl>
+<dt>zeitgeber</dt>
+<dd>
+any signal that thebrain can use to reset internal clock, German for time giver or synchronizer
+</dd>
+</dl>
+</section>
+</section>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_3.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 3."></p>
+</div>
+<div class="text">
+<dl>
+<dt>suprachiasmatic nucleus</dt>
+<dd>
+24-hr biological clock in the brain
+</dd>
+</dl>
+<ul>
+<li>Using spider-web patterns to determine toxicity, NASA Tech Briefs 9 Webs created under the influence of caffeine are less Functional than other drugs (LSD, ampethamine, marijuana)</li>
+</ul>
+<section id="defining-and-generating-sleep" class="level2">
+<h2 class="anchored" data-anchor-id="defining-and-generating-sleep">Defining and Generating Sleep</h2>
+<p>Time Dilation and What We Learned From a Baby in 1952</p>
+<ul>
+<li>more NREM happens at start of sleep and more REM at end of sleep. cutting our sleep short decreases our REM by 60-90%. Sleeping late also decreases NREM-</li>
+</ul>
+<p>Wake → Perception</p>
+<p>NREM → Reception</p>
+<p>REM → Integration</p>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_4.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 4."></p>
+</div>
+<div class="text">
+<section id="ape-beds-dinosaurs-and-napping-with-half-a-brain" class="level2">
+<h2 class="anchored" data-anchor-id="ape-beds-dinosaurs-and-napping-with-half-a-brain">Ape Beds, Dinosaurs, and Napping with Half a Brain</h2>
+<p>Who Sleeps, How Do We Sleep, and How Much?</p>
+<ul>
+<li>we can never “sleep back” that which we previously lost</li>
+<li>post-prandial alertness dip (prandium, Latin meaning meal) the sleepiness in the afternoon that suggests the need for bi-phasic sleep (one long at night and one nap in the afternoon)</li>
+</ul>
+</section>
+<section id="changes-in-sleep-across-the-life-span" class="level2">
+<h2 class="anchored" data-anchor-id="changes-in-sleep-across-the-life-span">Changes in sleep Across the Life span</h2>
+<ul>
+<li>synaptogenesis: stage in Fetal development where the brain creates million of synapses with the help of REM sleep</li>
+<li>deep sleep may be the driving Force of brain maturation</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_5.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 5."></p>
+</div>
+<div class="text">
+<ul>
+<li>adolescents, circadian rhythm are later than adults, i.e.&nbsp;they sleep and wake-up later</li>
+<li>the older we get, the more frequently we wake up at night</li>
+</ul>
+<section id="why-you-should-sleep" class="level1">
+<h1>Why You should Sleep?</h1>
+<section id="your-mother-and-shakespeare-knew" class="level2">
+<h2 class="anchored" data-anchor-id="your-mother-and-shakespeare-knew">Your Mother and Shakespeare Knew</h2>
+<p>The Benefits of sleep for the Brain</p>
+<ul>
+<li>the more the sleep spindles, the better the capacity of the brain to learn something new, sleep spindles occur at the later stage of sleep, so sleeping less than six hours reduces the occurrence of sleep spindles</li>
+<li>early deep NREM sleep provide superior memory retention, more deep NREM, more information retained</li>
+</ul>
+</section>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_6.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 6."></p>
+</div>
+<div class="text">
+<ul>
+<li>last two-hours of sleep (in an 8-hour sleep) enhances motor-skill learning</li>
+</ul>
+<section id="too-extreme-for-the-guiness-book-of-world-records" class="level2">
+<h2 class="anchored" data-anchor-id="too-extreme-for-the-guiness-book-of-world-records">Too Extreme For The Guiness Book of World Records</h2>
+<p>Sleep Deprivation and the Brain<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</section>
+<section id="cancer-heart-attacks-and-a-shorter-life" class="level2">
+<h2 class="anchored" data-anchor-id="cancer-heart-attacks-and-a-shorter-life">Cancer, Heart Attacks, and a shorter Life</h2>
+<p>Sleep Deprivation and the Body</p>
+<ul>
+<li>leptin signals fullness; ghrelin signals hunger</li>
+<li>it does not require many nights of short sleeping before the body is rendered immunologically weak</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_7.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 7."></p>
+</div>
+<section id="how-and-why-we-dream" class="level1 text">
+<h1>How and Why We Dream</h1>
+<section id="routinely-psychotic" class="level2">
+<h2 class="anchored" data-anchor-id="routinely-psychotic">Routinely Psychotic</h2>
+<p>REM-Sleep Dreaming</p>
+</section>
+<section id="dreaming-as-overnight-therapy" class="level2">
+<h2 class="anchored" data-anchor-id="dreaming-as-overnight-therapy">Dreaming as Overnight Therapy</h2>
+<dl>
+<dt>epiphenomena</dt>
+<dd>
+an unintended by-product or consequence, usually useless
+</dd>
+</dl>
+<ul>
+<li>REM sleep alone is insufficient. Dreams are necessary</li>
+<li>To sleep, perchance to heal. Time spent on dream sleep pro­vides emotional healing.</li>
+<li>Dreams must happen when nor-epenephrine is low in the brain to allow emotional healing</li>
+<li>emotional healing can only occur in dreaming when the dreams content deals with the emotion and the context of the emotion, i. e. one</li>
+</ul>
+</section>
+</section>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_8.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 8."></p>
+</div>
+<div class="text">
+<p>cannot heal from the pain of a break-up by dreaming of a beach - REM sleep recalibrates the region of the brain that reads and decodes the value and meaning of emotional signals</p>
+<section id="dream-creativity-and-dream-control" class="level2">
+<h2 class="anchored" data-anchor-id="dream-creativity-and-dream-control">Dream creativity and Dream Control</h2>
+<ul>
+<li>REM sleep fuses and blends elemen­tal ingredients together, in abstract and highly novel aways</li>
+<li>both the act of dreaming and the associated content of those dreams determine creative success</li>
+<li>REM sleep allows the brain to move beyond learning and truly grasp comprehension</li>
+<li>lucid dreaming, i. e. controlling a dream is real</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_9.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 9."></p>
+</div>
+<section id="from-sleeping-pills-to-society-transformed" class="level1 text">
+<h1>From Sleeping Pills to Society Transformed</h1>
+<section id="things-that-go-bump-in-the-night" class="level2">
+<h2 class="anchored" data-anchor-id="things-that-go-bump-in-the-night">Things that Go Bump in the Night</h2>
+<p>Sleep Disorders and Death Caused by No Sleep</p>
+<dl>
+<dt>Somnambulism</dt>
+<dd>
+sleep disorders that involve some form of movement
+</dd>
+<dt>Insomia</dt>
+<dd>
+suffering from an inade­quate ability to generate sleep despite allowing oneself the ade­quate opportunity to get sleep (this is not to be confused with sleep deprivation: having the adequate ability to sleep yet giving oneself an inadequate opportunity to sleep)
+</dd>
+<dt>onset insomnia</dt>
+<dd>
+difficulty falling asleep
+</dd>
+<dt>maintenance insomnia</dt>
+<dd>
+difficulty staying asleep
+</dd>
+<dt>narcolepsy</dt>
+<dd>
+three main symptoms are excessive daytime sleepiness,
+</dd>
+</dl>
+</section>
+</section>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_10.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 10."></p>
+</div>
+<div class="text">
+<p>sleep paralysis, and cataplexy</p>
+<dl>
+<dt>fatal familial insomnia</dt>
+<dd>
+genetic disorder, caused by a mutation in prion protein gene, that prevents one to sleep, fatal within 10 months
+</dd>
+</dl>
+<section id="ipads-factory-vhistles-and" class="level2">
+<h2 class="anchored" data-anchor-id="ipads-factory-vhistles-and">iPads, Factory Vhistles, and</h2>
+<p>Nightcaps</p>
+<ul>
+<li>alcohol degrades REM sleep and learning as much as three nights after initial learning</li>
+<li>alarms cause sudden increase in blood pressure and shock accelera­tion in heart rate: this happens repeatedly when snoozing the alarm</li>
+</ul>
+</section>
+<section id="hurting-and-helping-your-sleep" class="level2">
+<h2 class="anchored" data-anchor-id="hurting-and-helping-your-sleep">Hurting and Helping Your Sleep</h2>
+<p>Pills us. Therapy - “sleeping” pills are sedatives; they attack the same brain receptors as alcohol</p>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_11.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 11."></p>
+</div>
+<div class="text">
+<ul>
+<li>majority of prescription “sleeping” pills are physically addictive</li>
+</ul>
+<section id="sleep-and-society" class="level2">
+<h2 class="anchored" data-anchor-id="sleep-and-society">Sleep and Society</h2>
+<p>What Medicine and Education are doing Wrong, What Google and NASA are doing Right</p>
+<ul>
+<li>Those who sleep more earn more money</li>
+<li>REM sleep is what stands between rationality and insani­ty.</li>
+</ul>
+</section>
+<section id="new-vision-of-sleep-in-the" class="level2">
+<h2 class="anchored" data-anchor-id="new-vision-of-sleep-in-the">New Vision of Sleep in the</h2>
+<p>Twenty-First Century</p>
+<ul>
+<li>sleep credit with financial of vacation incentive can help pro­mote healthy</li>
+</ul>
+</section>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="WhyWeSleep_Page_12.png" class="img-fluid" alt="My notes on Why We Sleep, handwritten page 12."></p>
+</div>
+<section id="twelve-tips-for-healthy-sleep" class="level1 text">
+<h1>Twelve Tips for Healthy Sleep</h1>
+<ol type="1">
+<li>Stick to a sleep schedule.</li>
+<li>Exercise is great, but not too late in the day.</li>
+<li>Avoid caffeine and nicotine.</li>
+<li>Avoid Alcoholic drinks before bed.</li>
+<li>Avoid large meals and beverages late at night.</li>
+<li>If possible, avoid medicines that delay or disrupt sleep.</li>
+<li>Don’t take naps after 3PM.</li>
+<li>Relax before bed.</li>
+<li>Take a hot bath before bed.</li>
+<li>Dark, cold, and gadget-free bedroom.</li>
+</ol>
+<ol start="2" type="I">
+<li>Have the right sunlight exposure.</li>
+</ol>
+<ol start="12" type="1">
+<li>Don’t lie in bed awake.</li>
+</ol>
+</section>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
 
-    
-  
-    
-  </div>
-  
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cG9zdHMlMkNub3RlcyUyQ3JlYWRpbmclMkNib29rcw==" data-listing-date-sort="1756569600000" data-listing-file-modified-sort="1756624438006" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1001">
-<div class="thumbnail"><a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/notes-on-why-we-sleep/WhyWeSleep_Page_1.png" alt="Title of the book, title page of my notes."  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">Notes on Why We Sleep</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cG9zdHM='); return false;">posts</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90ZXM='); return false;">notes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVhZGluZw=='); return false;">reading</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ym9va3M='); return false;">books</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">
-My notes on Matthew Walker’s Why We Sleep<sup>1</sup>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">
-<div class="listing-date">
-Aug 31, 2025
-</div>
-<div class="listing-author">
-Recle E. Vibal
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cG9zdHMlMkNub3RlcyUyQ3dyaXRpbmclMkNwZXJzb25hbA==" data-listing-date-sort="1755360000000" data-listing-file-modified-sort="1755570956605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
-<div class="thumbnail"><a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/why-write-about-taking-notes/why-write-about-taking-notes_Page_1.png" alt="Why write about taking notes, handwritten page 1."  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/why-write-about-taking-notes/index.html" class="no-external">Why Write About Taking Notes</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cG9zdHM='); return false;">posts</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90ZXM='); return false;">notes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d3JpdGluZw=='); return false;">writing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGVyc29uYWw='); return false;">personal</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
-I have been taking notes ever since I learned to write. Most of my teachers in elementary and high school required and checked notes. I initially thought it was weird to…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
-<div class="listing-date">
-Aug 17, 2025
-</div>
-<div class="listing-author">
-Recle E. Vibal
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<ol>
+<li id="fn1"><p>I found an old copy in a secondhand book shop. Getting this for a very discounted price is just a miracle. The headings and subheadings correspond to the actual sections and chapters in the book, for quick reference and perusal. I believe this is such an important book that everyone should read and take note.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>I have no notes here except for the chapter title. I have a couple of these ^_^;<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
