@@ -10,7 +10,76 @@
 <atom:link href="https://recleev.github.io/on-taking-notes/index.xml" rel="self" type="application/rss+xml"/>
 <description>Recle&#39;s blog about taking handwritten notes</description>
 <generator>quarto-1.7.33</generator>
-<lastBuildDate>Sat, 30 Aug 2025 16:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 13 Sep 2025 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Markdown Syntax: A Note Taking Tool</title>
+  <dc:creator>Recle E. Vibal</dc:creator>
+  <link>https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="note-with-text">
+<div class="note">
+<p><img src="https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/markdown-syntax-a-note-taking-tool_Page_1.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 1."></p>
+</div>
+<div class="text">
+<p>I like easy to follow systems.</p>
+<p>I like easy to follow syntax.</p>
+<p>For about a decade, I have been using <a href="https://www.markdown%20guide.org">markdown</a> to create different kinds of documents. It is easy to type. It is also very easy to write by hand. However, I think markdown syntax really helps me to organize my thoughts better and share it later on. I can add hierarchy, division, and distinction to my notes when I use markdown in my Supernote. If I ever have to share my notes to anyone, I can convert my notes to TXT then md(markdown) then render it to any document type (html, doc, pdf) and retain the way I organized my thought in my original note.</p>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/markdown-syntax-a-note-taking-tool_Page_2.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 2."></p>
+</div>
+<div class="text">
+<p>I am not here to teach markdown. Please visit the <a href="https://www.markdownguide.org/basic-syntax/">guide on basic syntax</a> to learn and appreciate the simplicity and beauty of markdown. It is worth mentioning that markdown allows formatting parts of your text without really seeing that Format until you render your markdown file or you see the preview in a text editor. Rendered or not, I find that markdown syntax provide a clear visual cue to my notes.</p>
+<p>On a daily basis, I always use heading and unordered list syn­tax. Heading syntax allows me to separate my notes into sections. Bullet list syntax allows me to separate my thoughts.</p>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/markdown-syntax-a-note-taking-tool_Page_3.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 3."></p>
+</div>
+<div class="text">
+<p>Heading syntax uses the # symbol to identify which are headers. The more #s, the lower their chapter or section hierarchy. I rarely have to go to the third level. I often use this in my <a href="https://bulletjournal.com">bullet jour­nal</a>, the current week is the first header and the days are in the second header.</p>
+<p>I use the unordered list syntax (-) to take note of my thoughts as they come to me throughout the day. Each bullet in the list indi­cates a train of thought I captured in that moment.</p>
+<p>I don’t use it that often, but when I come across a quote I really like, I use the block quote syntax (&gt;) to capture it as a quote rather than the <em>normal</em></p>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/markdown-syntax-a-note-taking-tool_Page_4.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 4."></p>
+</div>
+<div class="text">
+<p>enclosing it in quotes. Again the intention is for me to be able to convert it to a formatted text.</p>
+<p>A non-markdown syntax I just started to adapt is the keyword syntax from <a href="https://obsidian.md">Obsidian</a>. A keyword or keyphrase is captured inside double square brackets. It sounds too much effort to identify a keyword but I find that it helps me to be more selective of thoughts I want to highlight. It gives the additional benefit of moving my notes to Obsidian almost seamless.</p>
+<p>Markdown syntax is easy to write. It easy to learn. It is simple yet clear in adding hierarchy, division, and distinction to your notes. I only mentioned a few syntax that I always use. But I sprinkle a few</p>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/markdown-syntax-a-note-taking-tool_Page_5.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 5."></p>
+</div>
+<div class="text">
+<p>in my notes almost all the time. You might have noticed other markdown syntax I used in this post.</p>
+<p>Try markdown syntax in your notes. It just might work For you too. In any case, markdown is something everyone should take note.</p>
+</div>
+</div>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div> ]]></description>
+  <category>posts</category>
+  <category>notes</category>
+  <category>writing</category>
+  <category>personal</category>
+  <guid>https://recleev.github.io/on-taking-notes/posts/markdown-syntax-a-note-taking-tool/</guid>
+  <pubDate>Sat, 13 Sep 2025 16:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Notes on Why We Sleep</title>
   <dc:creator>Recle E. Vibal</dc:creator>
