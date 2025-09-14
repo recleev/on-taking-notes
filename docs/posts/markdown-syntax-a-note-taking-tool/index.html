@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Recle E. Vibal">
+<meta name="dcterms.date" content="2025-09-14">
 
-<title>Penned and Keyed – On Taking Notes</title>
+<title>Markdown Syntax: A Note Taking Tool – On Taking Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo/on-taking-notes.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d8dbfa68d2569c1623b9cb71fb1f508e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-70af6a6443f3693f9c733c09e904fc3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo/on-taking-notes.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d8dbfa68d2569c1623b9cb71fb1f508e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-478be2bcc89c5777f96e5df90464d7ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,76 +69,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="alternate" type="application/rss+xml" title="On Taking Notes" href="index.xml" data-external="1"></head>
+</head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">On Taking Notes</span>
     </a>
   </div>
@@ -149,11 +91,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -180,151 +122,103 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page">
+      <h1 class="title">Markdown Syntax: A Note Taking Tool</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">posts</div>
+                <div class="quarto-category">notes</div>
+                <div class="quarto-category">writing</div>
+                <div class="quarto-category">personal</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Recle E. Vibal </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 14, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Ym9va3M=">books <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm90ZXM=">notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cGVyc29uYWw=">personal <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cG9zdHM=">posts <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cmVhZGluZw==">reading <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d3JpdGluZw==">writing <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Penned and Keyed</h1>
+
+
+
+
+<div class="note-with-text">
+<div class="note">
+<p><img src="markdown-syntax-a-note-taking-tool_Page_1.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 1."></p>
 </div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cG9zdHMlMkNub3RlcyUyQ3dyaXRpbmclMkNwZXJzb25hbA==" data-listing-date-sort="1757779200000" data-listing-file-modified-sort="1757844370294" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="480">
-<div class="thumbnail"><a href="./posts/markdown-syntax-a-note-taking-tool/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/markdown-syntax-a-note-taking-tool/markdown-syntax-a-note-taking-tool_Page_1.png" alt="Markdown syntax: A note taking tool, handwritten page 1."  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/markdown-syntax-a-note-taking-tool/index.html" class="no-external">Markdown Syntax: A Note Taking Tool</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cG9zdHM='); return false;">posts</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90ZXM='); return false;">notes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d3JpdGluZw=='); return false;">writing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGVyc29uYWw='); return false;">personal</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/markdown-syntax-a-note-taking-tool/index.html" class="no-external">
-I like easy to follow systems.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/markdown-syntax-a-note-taking-tool/index.html" class="no-external">
-<div class="listing-date">
-Sep 14, 2025
-</div>
-<div class="listing-author">
-Recle E. Vibal
-</div>
-</a>
+<div class="text">
+<p>I like easy to follow systems.</p>
+<p>I like easy to follow syntax.</p>
+<p>For about a decade, I have been using <a href="https://www.markdown%20guide.org">markdown</a> to create different kinds of documents. It is easy to type. It is also very easy to write by hand. However, I think markdown syntax really helps me to organize my thoughts better and share it later on. I can add hierarchy, division, and distinction to my notes when I use markdown in my Supernote. If I ever have to share my notes to anyone, I can convert my notes to TXT then md(markdown) then render it to any document type (html, doc, pdf) and retain the way I organized my thought in my original note.</p>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="cG9zdHMlMkNub3RlcyUyQ3JlYWRpbmclMkNib29rcw==" data-listing-date-sort="1756569600000" data-listing-file-modified-sort="1756624815818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1001">
-<div class="thumbnail"><a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/notes-on-why-we-sleep/WhyWeSleep_Page_1.png" alt="Title of the book, title page of my notes."  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">Notes on Why We Sleep</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cG9zdHM='); return false;">posts</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90ZXM='); return false;">notes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVhZGluZw=='); return false;">reading</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ym9va3M='); return false;">books</div>
-
+<div class="note-with-text">
+<div class="note">
+<p><img src="markdown-syntax-a-note-taking-tool_Page_2.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 2."></p>
 </div>
-<div class="delink listing-description"><a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">
-My notes on Matthew Walker’s Why We Sleep<sup>1</sup>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/notes-on-why-we-sleep/index.html" class="no-external">
-<div class="listing-date">
-Aug 31, 2025
-</div>
-<div class="listing-author">
-Recle E. Vibal
-</div>
-</a>
+<div class="text">
+<p>I am not here to teach markdown. Please visit the <a href="https://www.markdownguide.org/basic-syntax/">guide on basic syntax</a> to learn and appreciate the simplicity and beauty of markdown. It is worth mentioning that markdown allows formatting parts of your text without really seeing that Format until you render your markdown file or you see the preview in a text editor. Rendered or not, I find that markdown syntax provide a clear visual cue to my notes.</p>
+<p>On a daily basis, I always use heading and unordered list syn­tax. Heading syntax allows me to separate my notes into sections. Bullet list syntax allows me to separate my thoughts.</p>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="cG9zdHMlMkNub3RlcyUyQ3dyaXRpbmclMkNwZXJzb25hbA==" data-listing-date-sort="1755360000000" data-listing-file-modified-sort="1755570956605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="389">
-<div class="thumbnail"><a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/why-write-about-taking-notes/why-write-about-taking-notes_Page_1.png" alt="Why write about taking notes, handwritten page 1."  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/why-write-about-taking-notes/index.html" class="no-external">Why Write About Taking Notes</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cG9zdHM='); return false;">posts</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bm90ZXM='); return false;">notes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('d3JpdGluZw=='); return false;">writing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGVyc29uYWw='); return false;">personal</div>
-
+<div class="note-with-text">
+<div class="note">
+<p><img src="markdown-syntax-a-note-taking-tool_Page_3.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 3."></p>
 </div>
-<div class="delink listing-description"><a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
-I have been taking notes ever since I learned to write. Most of my teachers in elementary and high school required and checked notes. I initially thought it was weird to…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/why-write-about-taking-notes/index.html" class="no-external">
-<div class="listing-date">
-Aug 17, 2025
-</div>
-<div class="listing-author">
-Recle E. Vibal
-</div>
-</a>
+<div class="text">
+<p>Heading syntax uses the # symbol to identify which are headers. The more #s, the lower their chapter or section hierarchy. I rarely have to go to the third level. I often use this in my <a href="https://bulletjournal.com">bullet jour­nal</a>, the current week is the first header and the days are in the second header.</p>
+<p>I use the unordered list syntax (-) to take note of my thoughts as they come to me throughout the day. Each bullet in the list indi­cates a train of thought I captured in that moment.</p>
+<p>I don’t use it that often, but when I come across a quote I really like, I use the block quote syntax (&gt;) to capture it as a quote rather than the <em>normal</em></p>
 </div>
 </div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="markdown-syntax-a-note-taking-tool_Page_4.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 4."></p>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<div class="text">
+<p>enclosing it in quotes. Again the intention is for me to be able to convert it to a formatted text.</p>
+<p>A non-markdown syntax I just started to adapt is the keyword syntax from <a href="https://obsidian.md">Obsidian</a>. A keyword or keyphrase is captured inside double square brackets. It sounds too much effort to identify a keyword but I find that it helps me to be more selective of thoughts I want to highlight. It gives the additional benefit of moving my notes to Obsidian almost seamless.</p>
+<p>Markdown syntax is easy to write. It easy to learn. It is simple yet clear in adding hierarchy, division, and distinction to your notes. I only mentioned a few syntax that I always use. But I sprinkle a few</p>
+</div>
+</div>
+<div class="note-with-text">
+<div class="note">
+<p><img src="markdown-syntax-a-note-taking-tool_Page_5.png" class="img-fluid" alt="Markdown syntax: A note taking tool, handwritten page 5."></p>
+</div>
+<div class="text">
+<p>in my notes almost all the time. You might have noticed other markdown syntax I used in this post.</p>
+<p>Try markdown syntax in your notes. It just might work For you too. In any case, markdown is something everyone should take note.</p>
+</div>
+</div>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
